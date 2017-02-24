@@ -1,0 +1,19 @@
+Source: butt
+Section: sound
+Priority: extra
+Maintainer: Daniel James <daniel@64studio.com>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, portaudio19-dev, libflac-dev, libvorbis-dev, libfltk1.1-dev, libjpeg-dev, libmp3lame-dev, libopus-dev, libpng12-dev, libsamplerate0-dev, zlib1g-dev, libxft-dev, libfontconfig1-dev, libxinerama-dev
+Standards-Version: 3.9.2
+Homepage: http://danielnoethen.de/
+
+Package: butt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Easy to use, multi OS streaming tool
+ butt (broadcast using this tool) is an easy to use, multi OS streaming tool. 
+ It supports ShoutCast and IceCast. At the moment you can't feed butt directly 
+ with audio files.
+ Features:
+  * Streaming and recording simultaneously with different bitrates 
+  * Switchable lcd informations (left mouse on the display) 
+  * Automatic reconnection 
